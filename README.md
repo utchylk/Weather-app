@@ -13,7 +13,7 @@ A consulta ao clima é feita por meio de uma API de clima.
 
 Interface interativa com atualização automática dos dados.
 
-Tecnologias Utilizadas
+Tecnologias Utilizadas:
 
 React: Framework para construir a interface do usuário.
 
