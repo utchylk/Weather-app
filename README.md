@@ -1,34 +1,23 @@
-Descrição:
+Description:
 
-Aplicação desenvolvida em React que permite ao usuário consultar a temperatura em Fahrenheit de uma cidade específica. 
-O programa utiliza uma API de clima para obter as informações meteorológicas e exibe a temperatura na interface.
+A React application that allows the user to check the temperature in Fahrenheit for a specific city. The program uses a weather API to fetch weather information and displays the temperature on the interface.
 
-Funcionalidades:
+Features:
 
-O usuário pode digitar o nome de qualquer cidade.
+The user can enter the name of any city.
+The app displays the current temperature in Fahrenheit.
+The weather data is fetched via a weather API.
+Interactive interface with automatic data updates.
+Technologies Used:
 
-O aplicativo exibe a temperatura atual em Fahrenheit.
+React: Framework for building the user interface.
+Weather API: External service to fetch weather data.
+CSS: Styling of the interface.
 
-A consulta ao clima é feita por meio de uma API de clima.
-
-Interface interativa com atualização automática dos dados.
-
-Tecnologias Utilizadas:
-
-React: Framework para construir a interface do usuário.
-
-API de Clima: Serviço externo para obter as informações sobre o clima.
-
-CSS: Estilização da interface.
-
-Dependências:
+Dependencies:
 
 cd weather-app-react
+npm install axios
+This project uses an external API to fetch weather data. You will need an API key (token) for this.
 
-npm install
-
-npm start
-
-Este projeto usa uma API externa para obter os dados de clima. Para isso, você precisa de uma chave de API (token).
-
-Vá para o site OpenWeather e cadastre-se ou faça login para obter sua chave de API.
+Go to the OpenWeather website, sign up or log in to get your API key.
